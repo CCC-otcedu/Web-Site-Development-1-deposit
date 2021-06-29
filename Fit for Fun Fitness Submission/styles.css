@@ -1,0 +1,164 @@
+/*
+This is for the styles sheet of the website
+Chad Coburn, 6-24-2021
+Overall, a website for the Fit for Fun Fitness assignment submission in CIS-130
+*/
+
+/* The color palette for these web pages is made as a track and field kind of scheme:
+- a brown color = #602b1f
+- a clay color like on the track = #9d4438
+- a dark shade of green = #45541d
+- a lighter shade of green = #878f3c
+- a pale yellow = #fcf28e
+- white like on the track lines = #faf9fd
+
+
+/*
+This section is for the background design for the webpages, notably for the home page as well.
+*/
+
+html{
+  background-color: #878f3c;
+  border: 1px solid #faf9fd;
+}
+
+header{
+  border: 2px solid #faf9fd;
+  border-bottom: none;
+  background-color: #878f3c;
+  text-shadow: 1px 1px #faf9fd;
+}
+
+h2{
+  text-shadow: 1px 1px #faf9fd;
+}
+
+body{
+  background-color: #45541d;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+  color: #fcf28e;
+}
+
+main{
+  border: 2px solid #faf9fd;
+}
+
+footer{
+  border: 2px solid #faf9fd;
+  border-top: none;
+  background-color: #878f3c;
+  color: black;
+  font-weight: lighter;
+}
+
+img{
+  width: 500px;
+  height: 425px;
+  border: #faf9fd dashed 2px;
+}
+
+ul{
+  list-style-type: square;
+  list-style-position: outside;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: underline;
+  text-shadow: 1px 1px black;
+  font-size: 16px;
+}
+
+li{
+  font-weight: bolder;
+  text-shadow: 1px 1px black;
+  font-size: 14pt;
+  font-style: italic;
+}
+
+
+/* This section is for the design work on the nav panel for the website's links */
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 200px;
+  background-color: #9d4438;
+  border: 4px solid #faf9fd;
+}
+
+nav li{
+  border-bottom: 4px solid #faf9fd;
+  display: inline;
+}
+
+nav li a:active{
+  background-color: grey;
+}
+
+nav li a:hover{
+  background-color: black;
+}
+
+nav li a{
+  display: block;
+  padding: 8px 16px;
+  background-color: #9d4438;
+  color: #faf9fd;
+  text-decoration: none;
+  font-style: italic;
+  text-shadow: 1px 1px black;
+}
+
+
+/* This is the design work for the table aesthetic */
+
+table{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table, th, td{
+  align-items: center;
+  border: solid #faf9fd 2px;
+  font-size: 16pt;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+table p{
+  opacity: 70%;
+  font-size: 12pt;
+  font-weight: lighter;
+}
+
+tr:nth-child(even){
+  background-color: #9d4438;
+}
+
+tr:nth-child(odd){
+  background-color: #602b1f;
+}
+
+tr:hover{
+  background-color: black;
+}
+
+/* This section is for decoration and design for the form */
+
+form{
+  background-color: #faf9fd;
+  font-weight: bold;
+  font-family: "Times New Roman",sans-serif;
+  text-shadow: 1px 1px #fcf28e;
+  color: #45541d;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+legend{
+  border: 1px solid black;
+}
