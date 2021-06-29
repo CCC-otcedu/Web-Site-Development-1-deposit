@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Fill out our info form!</title>
+  <!--
+  This is for the index and home page of the website
+  Chad Coburn, 6-24-2021
+  A website for the Fit for Fun Fitness assignment submission in CIS-130
+  -->
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- This is the section for the header of the page, at the top of the webpage -->
+  <header>
+    <h1>Fill out our form for your information on signing up with us!</h1>
+  </header>
+
+  <!-- This is the html work for the nav panel, for the links between pages -->
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home Page</a></li>
+      <li><a href="classes.html">Our Classes and Schedule</a></li>
+      <li><a href="info.html">Fill Out our Form Here!</a></li>
+    </ul>
+  </nav>
+
+  <!-- This is the overall body of text for the webpage, the introduction to the company -->
+
+  <main>
+
+  <!-- This is the section for where the form will be created and placed within the site and by html -->
+
+    <div class="container">
+      <form method="get" action="thankyou.html">
+        <fieldset>
+          <legend>
+            Contact Information:
+          </legend>
+          <label for="FirstName">
+            First Name:
+            <input autofocus type="text" name="First Name" id="FirstName" required placeholder="FirstName"/>
+          </label>
+          <label for="LastName">
+            Last Name:
+            <input type="text" name="Last Name" id="LastName" required placeholder="LastName"/>
+          </label>
+          <label for="Email">
+            E-mail:
+            <input type="text" name="Email" id="Email" required placeholder="Email"/>
+          </label>
+          <label for="Phone">
+            Phone Number
+            <input type="text" name="Phone" id="Phone" required placeholder="Phone"/>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            Best Way to Reach:
+          </legend>
+          <label for="contact">
+            <select name="contact" id="contact">
+              <option value="E-mail">E-mail</option>
+              <option value="Phone">Phone Call</option>
+              <option value="Owl">Owl</option>
+              <option value="Text">Text</option>
+              <option value="SocialMedia">Social Media</option>
+            </select>
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            Classes You Are Interested In:
+          </legend>
+          <input type="checkbox" id="CT" name="CT" value="CT">
+          <label for="CT">Cross Training</label>
+          <input type="checkbox" id="Sprint" name="Sprint" value="Sprint">
+          <label for="Sprint">Sprint</label>
+          <input type="checkbox" id="Spin" name="Spin" value="Spin">
+          <label for="Spin">Spin</label>
+          <input type="checkbox" id="BodyPump" name="BodyPump" value="BodyPump">
+          <label for="BodyPump">BodyPump</label>
+          <input type="checkbox" id="BodyCombat" name="BodyCombat" value="BodyCombat">
+          <label for="BodyCombat">BodyCombat</label>
+          <input type="checkbox" id="StepInterval" name="StepInterval" value="StepInterval">
+          <label for="StepInterval">StepInterval</label>
+          <input type="checkbox" id="AdvCT" name="AdvCT" value="AdvCT">
+          <label for="AdvCT">Advanced Cross Training</label>
+          <input type="checkbox" id="MixxedFIT" name="MixxedFIT" value="MixxedFIT">
+          <label for="MixxedFIT">MixxedFIT</label>
+          <input type="checkbox" id="Zumba" name="Zumba" value="Zumba">
+          <label for="Zumba">Zumba</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            Preferred Class Time:
+          </legend>
+          <input type="radio" id="AMPM" name="AMPM" value="AM">
+          <label for="AMPM">AM</label>
+          <input type="radio" id="PMAM" name="AMPM" value="PM">
+          <label for="AMPM">PM</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            Additional Info:
+          </legend>
+          <label for="AdditionalInfo"></label>
+          <textarea id="AdditionalInfo" name="AdditionalInfo" rows="4" cols="50">
+
+          </textarea>
+        </fieldset>
+        <input type="submit" value="Submit"/>
+      </form>
+
+
+
+
+    </div>
+
+  </main>
+
+  <!-- This is the section for the footer of the page, at the bottom section.
+  This is for the contact information listed at the bottom of the web page for the company. -->
+  <footer>
+    <p>Fit for Fun Club, &copy;2021</p>
+    <p>Reach us @ fit4fun@yahoo.com or at 745-555-9230. Tweet us @Fit4FunClub Official!</p>
+  </footer>
+
+</body>
+
+</html>
